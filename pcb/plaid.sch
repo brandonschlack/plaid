@@ -2271,17 +2271,6 @@ Wire Wire Line
 	4800 2400 5400 2400
 Wire Wire Line
 	4800 3100 5400 3100
-$Comp
-L MCU_Microchip_ATmega:ATmega328P-PU U1
-U 1 1 5C16FB14
-P 2400 5700
-F 0 "U1" H 1950 7250 50  0000 C CNN
-F 1 "ATMEGA328-PU" H 1950 7150 50  0000 C CNN
-F 2 "Housings_DIP:DIP-28_W7.62mm" H 2400 5700 50  0001 C CIN
-F 3 "http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf" H 2400 5700 50  0001 C CNN
-	1    2400 5700
-	1    0    0    -1  
-$EndComp
 Connection ~ 3600 6000
 Wire Wire Line
 	3000 6000 3600 6000
@@ -2292,7 +2281,6 @@ Wire Wire Line
 	2400 4100 2400 4200
 Wire Wire Line
 	2400 4200 2500 4200
-Connection ~ 2400 4200
 Connection ~ 4000 4700
 Connection ~ 4000 4500
 Wire Wire Line
@@ -2436,4 +2424,16 @@ Wire Wire Line
 Connection ~ 10400 3800
 Wire Wire Line
 	10400 3800 10900 3800
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-PU U1
+U 1 1 5D9AECEC
+P 2400 5700
+F 0 "U1" H 1756 5746 50  0000 R CNN
+F 1 "ATmega328P-PU" H 1756 5655 50  0000 R CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 2400 5700 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 2400 5700 50  0001 C CNN
+	1    2400 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 2400 4200
 $EndSCHEMATC
