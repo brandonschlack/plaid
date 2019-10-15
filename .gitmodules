@@ -7,3 +7,6 @@
 [submodule "pcb/SMKJP_kicad_components"]
 	path = pcb/SMKJP_kicad_components
 	url = https://brandonschlack@github.com/hsgw/SMKJP_kicad_components.git
+[submodule "bootloader"]
+	path = bootloader
+	url = git@github.com:brandonschlack/USBaspLoader.git
